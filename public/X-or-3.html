@@ -25,7 +25,7 @@
 	                                                                                 
 	    var myFit = await model.fit(xTrainingData, yTrainingTarget, {
 	        batchSize : 4,
-	        epochs    : 3000,                                                                      
+	        epochs    : 1000000,                                                                      
 	        callbacks:  { 
 	          onEpochEnd: async (epoch, logs) => {                                                                                         
 	            document.getElementById('myDiv123').innerHTML = 'Epoch # ' + (epoch+1) + '/3000, Loss: ' + logs.loss + '<br><br>'
