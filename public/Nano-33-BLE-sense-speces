@@ -1,0 +1,5 @@
+3-axis Accelerometer,3-axis Gyroscope, 3-axis Magnetic [Arduino_LSM9DS1.h]
+RMS Microphone [PDM.h]
+Barometric Pressure [Arduino_LPS22HB.h]
+Temperature (with humidity)  [Arduino_HTS221.h]
+Gesture,RGBC Colour,Proximity    [Arduino_APDS9960.h]
