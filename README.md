@@ -1,6 +1,5 @@
 #<h1 >Rc-car </h1>
 
-https://github.com
 
 <li> <a  href="https://github.com">https://github.com</a>
 
