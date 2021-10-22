@@ -1,0 +1,41 @@
+// C++ code
+//
+/*
+  Sweep
+
+  by BARRAGAN <http://barraganstudio.com>
+  This example code is in the public domain.
+
+  modified 8 Nov 2013  by Scott Fitzgerald
+  http://www.arduino.cc/en/Tutorial/Sweep
+*/
+
+#include <Servo.h>
+
+int pos = 0;
+
+Servo servo_9;
+
+void setup()
+{
+  servo_9.attach(9, 500, 2500);
+
+}
+
+void loop()
+{
+  // sweep the servo from85 to 95 degrees in steps
+  // of 5 degrees
+  for (pos = 55; pos <= 125; pos += 5) {
+    // tell servo to go to position in variable 'pos'
+    servo_9.write(55);
+    // wait 45 ms for servo to reach the position
+    delay(45); // Wait for 45 millisecond(s)
+  }
+  for (pos = 125; pos >= 55; pos -= 5) {
+    // tell servo to go to position in variable 'pos'
+    servo_9.write(125);
+    // wait 45 ms for servo to reach the position
+    delay(45); // Wait for 45 millisecond(s)
+  }
+}
