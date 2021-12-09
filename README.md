@@ -21,7 +21,6 @@ This is the Arduino board and pinouts of the board
 
 ![ov7670-and-nano33-ble-sense-v5-1](https://user-images.githubusercontent.com/54966276/116629235-9f735b00-a905-11eb-8df2-731b3bd71d35.png)
 
-  <h>
 ![2021-12-08_20-11-55](https://user-images.githubusercontent.com/54966276/145333162-83f70beb-8ee2-436a-a9bc-c4389cefbd73.png)
 
    
