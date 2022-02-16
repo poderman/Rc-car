@@ -133,7 +133,6 @@ void loop()
           
             analogWrite(D4, 0);     // stop
     digitalWrite(LEDB, 1);  // D7 off
-    delay(3000);            // wait 3 seconds
         }
      }
   } 
