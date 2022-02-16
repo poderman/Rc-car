@@ -1,0 +1,38 @@
+// C++ code
+//
+/*
+  This program blinks pin 13 of the Arduino (the
+  built-in LED)
+*/
+// Web site links
+// https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+
+const int buttonPin = 13;     // the number of the pushbutton pin
+const int ledPin =  14;      // the number of the LED pin
+
+// variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);
+  
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}
+
+void loop()
+{
+if (buttonState == HIGH)
+ {
+ //turn LED on
+  digitalWrite(ledPin, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  }
+  else
+  {
+  //turn LED off
+  digitalWrite(ledPin, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  }
+}
