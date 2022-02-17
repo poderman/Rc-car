@@ -29,7 +29,7 @@ if (buttonState == HIGH)
   digitalWrite(ledPin, HIGH);
   delay(1000); // Wait for 1000 millisecond(s)
   }
-  else
+  else if (buttonState == LOW);
   {
   //turn LED off
   digitalWrite(ledPin, HIGH);
