@@ -1,0 +1,57 @@
+#######################################
+# Syntax Coloring Map ML_CAR
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+ONE_OBJECT		KEYWORD2
+TWO_OBJECT		KEYWORD2
+USE_STRAIGHT		KEYWORD2
+EXT_STEERING		KEYWORD2
+LINE_OUT_STEERING	LITERAL1
+EXT_DRIVING		KEYWORD2
+LINE_OUT_DRIVING	LITERAL1
+USE_BRAKE		KEYWORD2
+USE_COAST		KEYWORD2
+COLORS			KEYWORD2
+
+
+read			KEYWORD2
+attached			KEYWORD2
+writeMicroseconds		KEYWORD2
+readMicroseconds		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SERVO_PIN	LITERAL1
+FORWARD_PIN 	LITERAL1
+REVERSE_PIN	LITERAL1
+CONTROL_PIN 	LITERAL1
+
+MID_POINT 	LITERAL1
+LOW_POINT 	LITERAL1
+HIGH_POINT 	LITERAL1
+VIEW_AREA 	LITERAL1
+
+MIN_SPEED 	LITERAL1
+SLOW_SPEED 	LITERAL1
+FAST_SPEED 	LITERAL1
+SPEED_INCREASE 	LITERAL1
+SPEED_INCREASE_DELAY 	LITERAL1
+
+MBED 	LITERAL1
+RTOS 	LITERAL1
+SLEEP 	LITERAL1
+
+INIT_SERVO 	LITERAL1
+INIT_MOTOR 	LITERAL1
+PIN_SETUP 	LITERAL1
+ML_CAR 	LITERAL1
