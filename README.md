@@ -11,6 +11,11 @@
  <li> <a  href="https://poderman.github.io/Rc-car/public/Edge-Impulse-web/">https://poderman.github.io/Rc-car/public/Edge-Impulse-web/</a>
   
  <li> <a  href="https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html">https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tfjs-models/handpose/index.html</a>
+
+
+  <h2 >Videos of my RC Car working!! </h2>
+<li> <a  href="https://youtube.com/shorts/h4C6P7HIvAU?si=AtrUG-anYQv6FTAr">https://poderman.github.io/Rc-car/public/Edge-Impulse-web/</a>
+<li> <a  href="https://youtube.com/shorts/PTuaZHjFv_k?si=bxoVeLz0TPBQB5o0">https://poderman.github.io/Rc-car/public/Edge-Impulse-web/</a>
   
   
   ![Feb 24, 2022 at 5_13 PM](https://user-images.githubusercontent.com/54966276/155636569-6c14032a-0f61-49fa-8551-8b7dab95321d.jpg)
