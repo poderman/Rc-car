@@ -1,0 +1,30 @@
+<h2 align=center>t2a28-pyscript-fred.html </h2>
+
+<script defer src="https://pyscript.net/latest/pyscript.js"></script&gt;
+
+
+Hello World let's do Python in the Browser! <br />
+This is the current date and time, as computed by Python:
+<py-script>
+  from datetime import datetime
+  now = datetime.now()
+  display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+</py-script>
+
+<br><br>
+Now some input and output<br><br>
+Multiply by 3:<input type="number" id="myIn01">
+<input type=button  id="myButton01" value="Multiply by 3">
+<div id="myOut01"></div>
+
+<py-script>
+    from js import document
+
+    def multiply_by_three(event=None):
+        myNumber = document.getElementById("myIn01").value
+        myResult = int(myNumber) * 3
+        document.getElementById("myOut01").innerText = f"Result: {myResult}"
+
+        # Attach the function to the button click event
+    document.getElementById("myButton01").onclick = multiply_by_three
+</py-script>
