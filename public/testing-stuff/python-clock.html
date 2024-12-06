@@ -22,7 +22,7 @@ Multiply by 3:<input type="number" id="myIn01">
 
     def multiply_by_three(event=None):
         myNumber = document.getElementById("myIn01").value
-        myResult = int(myNumber) * 3
+        myResult = int(myNumber) * 3 / 6
         document.getElementById("myOut01").innerText = f"Result: {myResult}"
 
         # Attach the function to the button click event
